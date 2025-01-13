@@ -4,7 +4,7 @@ b = input()
 a = input()
 z = kub.f(v)
 i = str.f(a, b)
-print(f'выводим приколы {z, i}')
+print(f'выводим {z, i}')
 
 
 '''import my_module
