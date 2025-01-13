@@ -36,7 +36,7 @@ print(car.get_info())  # Ожидается: Марка: Honda, Модель: Ci
 #Пример использования класса UserAccount
             
     # Создание объекта класса UserAccount
-user = UserAccount("Daniil", "ilya.ban4n@gmail.com", "123")    
+user = UserAccount("Ilya", "ilya.ban4n@gmail.com", "123")    
     # Изменение пароля
 user.set_password("456")
     # Проверка пароля
