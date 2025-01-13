@@ -16,9 +16,9 @@ class Car(Vehicle):
         return f"{base_info}, Тип топлива: {self.fuel_type}"
 
     # Пример использования классов
-vehicle = Vehicle("Toyota", "Corolla")
+vehicle = Vehicle("Dodge", "Challenger")
 print(vehicle.get_info())  # Ожидается: Марка: Toyota, Модель: Corolla
-car = Car("Honda", "Civic", "Бензин")
+car = Car("Audi", "RS7", "Бензин")
 print(car.get_info())  # Ожидается: Марка: Honda, Модель: Civic, Тип топлива: Бензин
 
 '''class UserAccount:    
@@ -36,7 +36,7 @@ print(car.get_info())  # Ожидается: Марка: Honda, Модель: Ci
 #Пример использования класса UserAccount
             
     # Создание объекта класса UserAccount
-user = UserAccount("Daniil", "danila@example.com", "123")    
+user = UserAccount("Daniil", "ilya.ban4n@gmail.com", "123")    
     # Изменение пароля
 user.set_password("456")
     # Проверка пароля
